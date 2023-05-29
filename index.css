@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+h1 {
+  font-family: 'Rubik', monospace, 'Times New Roman', serif;
+  font-size: 1.5rem;
+  margin-top: 40px;
+}
+
+/* Additional CSS for mobile devices */
+@media (max-width: 600px) {
+  .back-button {
+    top: 0.7rem;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+    margin-top: 80px;
+  }
+  .txt--view{
+    font-size: 2rem;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Rubik', monospace, 'Times New Roman', serif;
+}
+.txt--view{
+  font-size: 1rem;
+}
+
+.file-name {
+  font-family: 'Rubik', monospace, 'Times New Roman', serif;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.file-item {
+  display: inline-block;
+  margin: 1rem;
+  text-align: center;
+}
+
+#file-list :hover {
+  background-color: #63ee88;
+}
+
+
+
+img {
+  width: 8rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+}
+
+audio {
+  max-width: 100%;
+}
+
+.back-button {
+  margin-top: 0.4rem;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #63ee88;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
